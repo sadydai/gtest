@@ -1,0 +1,37 @@
+.page-svg{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    display: inline-block;
+    fill: currentColor;
+}
+
+
+.drop-enter-active {
+    animation: TransitionDropIn .3s ease-in-out;
+}
+
+.drop-leave-active{
+animation: TransitionDropOut .3s;
+}
+@keyframes TransitionDropIn {
+    0% {
+        opacity: 0;
+        transform: scaleY(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+}
+
+@keyframes TransitionDropOut {
+    0% {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scaleY(0.8);
+    }
+}

@@ -1,0 +1,23 @@
+$drak: #3B426B;
+$brown_green: #34412f;
+$glod: #AC8E34;
+$green_boon: #5e745f;
+$white: #F2F8F0;
+$water: #7DAEA6;
+$red_error: #dd1a32;
+$base-blue: #347EFF;
+$color-base: #2c3e50;
+$border-base: #c0c4cc;
+$border-hover-base: #909399;
+$error-bg: #ffeff1;
+$border-hover-active: $base-blue;
+$disabled-bg: #f2f5fa;
+$disbaled-border: fade($border-hover-base, 80%);
+$select-bg-active:#f7f9fc;
+
+/****input ****/
+$input-border-base: $border-base;
+$input-border-active: $border-hover-active;
+$input-border-hover: $border-hover-base;
+$input-font-base: $color-base;
+
